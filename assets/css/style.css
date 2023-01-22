@@ -20,7 +20,7 @@
    * colors
    */
 
-  --violet-blue-crayola: hsla(234, 50%, 64%, 1);
+  --violet-blue-crayola: darkgreen;
   --dark-cornflower-blue_a7: hsla(214, 88%, 27%, 0.07);
   --white: hsla(0, 0%, 100%, 1);
   --white_a3: hsla(0, 0%, 100%, 0.03);
@@ -225,8 +225,8 @@ body.nav-active { overflow: hidden; }
 
 .btn-primary,
 .btn-outline:is(:hover, :focus-visible) {
-  background-color: var(--white);
-  color: var(--charcoal);
+  background-color: var(--violet-blue-crayola);
+  color: var(--white);
 }
 
 .img-holder {
@@ -244,7 +244,7 @@ body.nav-active { overflow: hidden; }
 .section-subtitle {
   font-size: var(--fs-7);
   text-transform: uppercase;
-  color: var(--violet-blue-crayola);
+  color: 1px solid var(--cadet-blue-crayola_a20);
   font-weight: var(--fw-700);
   margin-block-end: 16px;
 }
@@ -488,8 +488,8 @@ body.nav-active { overflow: hidden; }
 
 .service-card {
   padding: 40px;
-  box-shadow: var(--shadow-2);
-  border-radius: var(--radius-6);
+  box-shadow: var(--shadow-1);
+  border-radius: var(--radius-10);
 }
 
 .service-card .card-icon {
@@ -557,7 +557,7 @@ body.nav-active { overflow: hidden; }
 .accordion-btn .span { transition: var(--transition-1); }
 
 .accordion-btn:is(:hover, :focus-visible) .span,
-.accordion-card.expanded .accordion-btn .span { color: var(--violet-blue-crayola); }
+.accordion-card.expanded .accordion-btn .span { color: steelblue; }
 
 .accordion-content {
   padding-inline-start: 24px;
@@ -642,9 +642,9 @@ body.nav-active { overflow: hidden; }
 
 .project-card {
   background-color: var(--white);
-  border-radius: var(--radius-8);
+  border-radius: var(--radius-10);
   overflow: hidden;
-  box-shadow: var(--shadow-2);
+  box-shadow: var(--shadow-1);
   height: 100%;
 }
 
@@ -724,7 +724,7 @@ body.nav-active { overflow: hidden; }
   transition: var(--transition-1);
 }
 
-.footer-link:is(:hover, :focus-visible) { color: var(--violet-blue-crayola); }
+.footer-link:is(:hover, :focus-visible) { color: var(--white); }
 
 .input-wrapper {
   position: relative;
