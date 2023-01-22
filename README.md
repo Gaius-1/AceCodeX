@@ -4,7 +4,7 @@
 
   AceCodeX is a fully responsive business agency website, <br />Responsive for all devices, build using HTML, CSS, and JavaScript.
 
-  <a href="https://squash-bit.github.io/AceCodeX/"><strong>➥ Live Demo</strong></a>
+  <a href="https://gaius-1.github.io/AceCodeX/"><strong>➥ Live Demo</strong></a>
 
 </div>
 
