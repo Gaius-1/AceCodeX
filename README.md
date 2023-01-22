@@ -23,13 +23,13 @@ To run **AceCodeX** locally, run this command on your git bash:
 Linux and macOS:
 
 ```bash
-sudo git clone https://github.com/squash-bit/AceCodeX.git
+sudo git clone https://github.com/gaius-1/AceCodeX.git
 ```
 
 Windows:
 
 ```bash
-git clone https://github.com/squash-bit/AceCodeX.git
+git clone https://github.com/gaius-1/AceCodeX.git
 ```
 
 ### License
